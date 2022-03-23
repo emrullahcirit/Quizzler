@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         
 
     }
-    // fix typo
+    
     @objc func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
         progressBar.progress = quizBrain.getProgress()
