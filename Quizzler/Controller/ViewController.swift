@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateUI()
     }
-//lslslsls
+
     @IBAction func answerButtonPressed(_ sender: UIButton) {
         var config = UIButton.Configuration.filled()
         config.titleTextAttributesTransformer =
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         
 
     }
-
+    
     @objc func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
         progressBar.progress = quizBrain.getProgress()
