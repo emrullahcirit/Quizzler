@@ -6,7 +6,7 @@
 //
 
 import UIKit
-// asdfasd
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
